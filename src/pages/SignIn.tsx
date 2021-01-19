@@ -1,9 +1,9 @@
 import Lottie from 'react-lottie';
 
-import '../styles/pages/SingIn.css';
-import AnimationData from '../assets/animations/SingInAnimation.json';
+import '../styles/pages/SignIn.css';
+import AnimationData from '../assets/animations/SignInAnimation.json';
 
-function SingIn() {
+function SignIn() {
   const defaultOptions = {
     loop: true,
     autoplay: true, 
@@ -36,7 +36,7 @@ function SingIn() {
     <div id="box-Form" className="box">
         <div id="form-container">
           <form  className="login-form">
-              <h1 id="title-form">Sing In</h1>
+              <h1 id="title-form">Sign In</h1>
                  
                <div className="wrap-styleInput" >
                  <input type="text" placeholder="E-mail"/>
@@ -46,14 +46,14 @@ function SingIn() {
                  <input type="password" placeholder="Password"/>
               </div>
 
-              <div className="wrap-buttonSingIn">
-                <button  value="login">Sing In</button>
+              <div className="wrap-buttonSignIn">
+                <button  value="login">Sign In</button>
               </div>
 
               <span id="text-or">OR</span>
 
-              <div className="wrap-buttonSingUp">
-                <button value="login">Create a count</button>
+              <div className="wrap-buttonSignUp">
+                <button value="login">Create account</button>
               </div>
 
               <div className='recovery'>
@@ -67,4 +67,4 @@ function SingIn() {
   );
 }
 
-export default SingIn;
+export default SignIn;

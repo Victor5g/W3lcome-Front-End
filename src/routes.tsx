@@ -1,13 +1,13 @@
 import {BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import SingIn from './pages/SingIn';
+import SignIn from './pages/SignIn';
 
 function Routes(){
   return(
 
     <BrowserRouter>
       <Switch>
-       <Route path="/" exact component={SingIn}/>
+       <Route path="/" exact component={SignIn}/>
        </Switch>
     </BrowserRouter>
   );
