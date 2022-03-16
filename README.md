@@ -1,4 +1,4 @@
-<h1 align='center'> W3lcome </h1>
+<h1 align='center'> Example Lottie Animation </h1>
 
 
 ---
