@@ -1,4 +1,4 @@
-<h1 align='center'> Example Lottie Animation </h1>
+<h1 align='center'> Example React Lottie-Animation </h1>
 
 
 ---
